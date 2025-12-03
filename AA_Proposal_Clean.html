@@ -1,0 +1,703 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Proposal for AA Management Services, Inc.</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            body { font-family: sans-serif; }
+            .markdown-content h1, .markdown-content h2, .markdown-content h3 {
+                color: #fff;
+                margin-bottom: 0.5em;
+                margin-top: 1em;
+                font-weight: 600;
+                border-bottom: 1px solid #334155;
+                padding-bottom: 0.3em;
+            }
+            .markdown-content h1 { font-size: 2.25rem; }
+            .markdown-content h2 { font-size: 1.875rem; }
+            .markdown-content h3 { font-size: 1.5rem; }
+            .markdown-content p {
+                margin-bottom: 1em;
+                line-height: 1.75;
+            }
+            .markdown-content ul, .markdown-content ol {
+                margin-left: 1.5em;
+                margin-bottom: 1em;
+            }
+            .markdown-content li {
+                margin-bottom: 0.5em;
+            }
+            .markdown-content strong {
+                color: #f1f5f9;
+            }
+            .markdown-content a {
+                color: #f59e0b;
+                text-decoration: underline;
+            }
+            .markdown-content a:hover {
+                color: #fbbf24;
+            }
+            .markdown-content blockquote {
+                border-left: 4px solid #475569;
+                padding-left: 1em;
+                color: #94a3b8;
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body class="bg-slate-900 text-slate-300">
+        
+  <header class="bg-slate-900">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 md:px-8">
+          <div class="flex items-center justify-between h-20 border-b border-slate-700">
+            <div class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 573.11" class="h-9 w-48" aria-label="Nexaris AI Logo"><g><path d="m930.28,49.13c-59.28,0-107.33,48.05-107.33,107.33v48.58c0,27.65-10.99,54.18-30.54,73.73h0c-19.56,19.56-46.08,30.55-73.73,30.55h-97.16c-27.66,0-54.18-10.99-73.73-30.54h0c-19.56-19.56-30.54-46.08-30.54-73.73v-48.58c0-59.28-48.06-107.33-107.33-107.33s-107.33,48.05-107.33,107.33v48.58c0,27.65-10.99,54.18-30.54,73.73h0c-19.55,19.56-46.08,30.55-73.73,30.55h-48.58c-59.28,0-107.33,48.05-107.33,107.33s48.06,107.33,107.33,107.33,107.33-48.06,107.33-107.33v-48.58c0-27.66,10.99-54.18,30.54-73.74h0c19.55-19.55,46.08-30.54,73.73-30.54h97.16c27.66,0,54.18,10.99,73.73,30.54h0c19.56,19.56,30.54,46.08,30.54,73.74v48.58c0,59.27,48.05,107.33,107.33,107.33s107.33-48.06,107.33-107.33v-48.58c0-27.66,10.99-54.18,30.54-73.74,19.55-19.55,46.08-30.54,73.73-30.54h48.58c59.28,0,107.33-48.06,107.33-107.33s-48.06-107.33-107.33-107.33Z" fill="#92d72c" style="stroke-width: 0;"></path></g><text x="1150" y="380" fontFamily="sans-serif" fontSize="300" fontWeight="bold" fill="white" text-anchor="start">Nexaris AI</text></svg></div>
+          </div>
+      </div>
+      <div class="text-center py-16 px-4">
+        <h2 class="text-4xl lg:text-5xl font-extrabold text-white tracking-tighter">
+            Proposal for AA Management Services, Inc.
+        </h2>
+        <p class="mt-4 max-w-2xl mx-auto text-lg text-gray-400">
+            Project: Quickbooks Automation
+        </p>
+      </div>
+  </header>
+        <main class="max-w-5xl mx-auto px-4 sm:px-6 md:px-8">
+            
+<section class="py-12 scroll-mt-20">
+  <div class="text-center mb-10">
+    <h2 class="text-4xl font-bold text-white tracking-tight">Executive Summary</h2>
+    <p class="mt-3 text-lg text-amber-400">The Opportunity for Transformation</p>
+  </div>
+  
+    <div class="bg-slate-800/50 p-8 rounded-lg shadow-lg backdrop-blur-sm border border-slate-700">
+      <p class="text-lg text-gray-300 mb-8 leading-relaxed">AA Management Services, Inc. faces operational inefficiencies due to manual data entry for QuickBooks Bills and Invoices, compounded by varying file formats and a lack of structured workflow. Nexaris AI proposes an intelligent workflow agent that automates the extraction, mapping, and posting of financial data from diverse Excel and PDF inputs directly to QuickBooks Online, incorporating a crucial human-in-the-loop review. This solution will dramatically reduce manual effort, enhance data accuracy, accelerate financial cycles, and empower your business to scale without proportional increases in administrative overhead.</p>
+      <div class="grid md:grid-cols-2 gap-6">
+        
+          <div class="flex items-start space-x-4">
+            <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-green-400 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></svg></div>
+            <div>
+              <h3 class="font-semibold text-white">Boost Operational Efficiency</h3>
+              <p class="text-gray-400">Reduce manual data entry time for financial documents by 70-90%, reclaiming valuable staff hours.</p>
+            </div>
+          </div>
+        
+          <div class="flex items-start space-x-4">
+            <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-green-400 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></svg></div>
+            <div>
+              <h3 class="font-semibold text-white">Improve Cash Flow Velocity</h3>
+              <p class="text-gray-400">Accelerate Accounts Payable and Accounts Receivable processing cycles from days to same-day execution.</p>
+            </div>
+          </div>
+        
+          <div class="flex items-start space-x-4">
+            <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-green-400 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></svg></div>
+            <div>
+              <h3 class="font-semibold text-white">Enhance Financial Accuracy</h3>
+              <p class="text-gray-400">Minimize data entry errors by up to 80%, leading to cleaner financial records and fewer disputes.</p>
+            </div>
+          </div>
+        
+          <div class="flex items-start space-x-4">
+            <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-green-400 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></svg></div>
+            <div>
+              <h3 class="font-semibold text-white">Standardize Data Ingestion</h3>
+              <p class="text-gray-400">Standardize the processing of diverse subcontractor Excel and PDF inputs into one consistent, automated format.</p>
+            </div>
+          </div>
+        
+          <div class="flex items-start space-x-4">
+            <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-green-400 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></svg></div>
+            <div>
+              <h3 class="font-semibold text-white">Enable Scalable Growth</h3>
+              <p class="text-gray-400">Reclaim significant administrative hours, allowing for business expansion without additional headcount.</p>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+</section>
+            
+<section class="py-12 scroll-mt-20">
+  <div class="text-center mb-10">
+    <h2 class="text-4xl font-bold text-white tracking-tight">Proposed Solution</h2>
+    <p class="mt-3 text-lg text-amber-400">A Phased Implementation Plan</p>
+  </div>
+  
+    <div class="space-y-8">
+    
+      <div class="flex flex-col md:flex-row gap-8 items-start">
+        <div class="md:w-1/3 p-4 rounded-lg text-left bg-slate-800 text-white">
+          <div class="flex items-center space-x-4">
+            <div class="p-2 rounded-full bg-slate-700"><svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></div>
+            <div>
+              <h3 class="font-bold">Phase 1: Discovery &amp; System Design</h3>
+              <p class="text-sm text-gray-400">Foundation &amp; Blueprint</p>
+            </div>
+          </div>
+        </div>
+        <div class="md:w-2/3">
+          <div class="bg-slate-800/50 border border-slate-700 rounded-lg p-8 h-full">
+            <h3 class="text-2xl font-bold text-white mb-2">Foundation &amp; Blueprint</h3>
+            <p class="text-gray-400 mb-6">This initial phase is dedicated to a deep dive into AA Management&#039;s specific accounting workflows, current QuickBooks setup, and detailed data requirements. We will map out existing processes, identify all critical data points, and design the optimal solution architecture, ensuring it aligns perfectly with your operational needs and desired outcomes.</p>
+            <ul class="space-y-4">
+              
+                <li class="flex items-start space-x-3">
+                  <span class="flex-shrink-0 mt-1 w-5 h-5 bg-amber-500 text-slate-900 rounded-full flex items-center justify-center text-xs font-bold">1</span>
+                  <span class="text-gray-300">Detailed requirements gathering and workflow mapping workshops.</span>
+                </li>
+              
+                <li class="flex items-start space-x-3">
+                  <span class="flex-shrink-0 mt-1 w-5 h-5 bg-amber-500 text-slate-900 rounded-full flex items-center justify-center text-xs font-bold">2</span>
+                  <span class="text-gray-300">QuickBooks Online API access and integration planning.</span>
+                </li>
+              
+                <li class="flex items-start space-x-3">
+                  <span class="flex-shrink-0 mt-1 w-5 h-5 bg-amber-500 text-slate-900 rounded-full flex items-center justify-center text-xs font-bold">3</span>
+                  <span class="text-gray-300">Comprehensive data field mapping for Bills and Invoices to QBO categories.</span>
+                </li>
+              
+                <li class="flex items-start space-x-3">
+                  <span class="flex-shrink-0 mt-1 w-5 h-5 bg-amber-500 text-slate-900 rounded-full flex items-center justify-center text-xs font-bold">4</span>
+                  <span class="text-gray-300">Solution architecture design and technical specification document.</span>
+                </li>
+              
+                <li class="flex items-start space-x-3">
+                  <span class="flex-shrink-0 mt-1 w-5 h-5 bg-amber-500 text-slate-900 rounded-full flex items-center justify-center text-xs font-bold">5</span>
+                  <span class="text-gray-300">Secure development environment setup.</span>
+                </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+      <div class="flex flex-col md:flex-row gap-8 items-start">
+        <div class="md:w-1/3 p-4 rounded-lg text-left bg-slate-800 text-white">
+          <div class="flex items-center space-x-4">
+            <div class="p-2 rounded-full bg-slate-700"><svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 14 4-4"></path><path d="M12 14a2 2 0 0 1-2-2 2 2 0 0 1-2-2"></path><path d="M14 10a2 2 0 0 0-2-2 2 2 0 0 0-2 2"></path><path d="m4 10 4 4"></path><path d="m18 12 2-2-2-2"></path><path d="m6 12-2-2 2-2"></path></svg></div>
+            <div>
+              <h3 class="font-bold">Phase 2: Agent Development &amp; Integration</h3>
+              <p class="text-sm text-gray-400">Building the Intelligent Core</p>
+            </div>
+          </div>
+        </div>
+        <div class="md:w-2/3">
+          <div class="bg-slate-800/50 border border-slate-700 rounded-lg p-8 h-full">
+            <h3 class="text-2xl font-bold text-white mb-2">Building the Intelligent Core</h3>
+            <p class="text-gray-400 mb-6">In this phase, our team will develop the core AI workflow agent. This includes building the data ingestion module capable of handling various file formats (Excel, PDF), integrating the Large Language Model for intelligent data extraction and normalization, and establishing robust communication with the QuickBooks Online API.</p>
+            <ul class="space-y-4">
+              
+                <li class="flex items-start space-x-3">
+                  <span class="flex-shrink-0 mt-1 w-5 h-5 bg-amber-500 text-slate-900 rounded-full flex items-center justify-center text-xs font-bold">1</span>
+                  <span class="text-gray-300">Development of automated file ingestion and OCR/parsing modules.</span>
+                </li>
+              
+                <li class="flex items-start space-x-3">
+                  <span class="flex-shrink-0 mt-1 w-5 h-5 bg-amber-500 text-slate-900 rounded-full flex items-center justify-center text-xs font-bold">2</span>
+                  <span class="text-gray-300">LLM training and fine-tuning for specific financial data extraction and categorization.</span>
+                </li>
+              
+                <li class="flex items-start space-x-3">
+                  <span class="flex-shrink-0 mt-1 w-5 h-5 bg-amber-500 text-slate-900 rounded-full flex items-center justify-center text-xs font-bold">3</span>
+                  <span class="text-gray-300">API integration with QuickBooks Online for automated Bill and Invoice creation.</span>
+                </li>
+              
+                <li class="flex items-start space-x-3">
+                  <span class="flex-shrink-0 mt-1 w-5 h-5 bg-amber-500 text-slate-900 rounded-full flex items-center justify-center text-xs font-bold">4</span>
+                  <span class="text-gray-300">Development of the intuitive human review user interface.</span>
+                </li>
+              
+                <li class="flex items-start space-x-3">
+                  <span class="flex-shrink-0 mt-1 w-5 h-5 bg-amber-500 text-slate-900 rounded-full flex items-center justify-center text-xs font-bold">5</span>
+                  <span class="text-gray-300">Initial unit and integration testing of all components.</span>
+                </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+      <div class="flex flex-col md:flex-row gap-8 items-start">
+        <div class="md:w-1/3 p-4 rounded-lg text-left bg-slate-800 text-white">
+          <div class="flex items-center space-x-4">
+            <div class="p-2 rounded-full bg-slate-700"><svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V10"></path><path d="M18 20V4"></path><path d="M6 20V16"></path></svg></div>
+            <div>
+              <h3 class="font-bold">Phase 3: Testing, Training &amp; Refinement</h3>
+              <p class="text-sm text-gray-400">Validation &amp; Empowerment</p>
+            </div>
+          </div>
+        </div>
+        <div class="md:w-2/3">
+          <div class="bg-slate-800/50 border border-slate-700 rounded-lg p-8 h-full">
+            <h3 class="text-2xl font-bold text-white mb-2">Validation &amp; Empowerment</h3>
+            <p class="text-gray-400 mb-6">This phase focuses on rigorously testing the automated workflow with real-world data from AA Management. We will conduct User Acceptance Testing (UAT) to ensure the system meets all requirements and performs accurately. Comprehensive training will be provided to your staff, ensuring a smooth transition and confident use of the new system.</p>
+            <ul class="space-y-4">
+              
+                <li class="flex items-start space-x-3">
+                  <span class="flex-shrink-0 mt-1 w-5 h-5 bg-amber-500 text-slate-900 rounded-full flex items-center justify-center text-xs font-bold">1</span>
+                  <span class="text-gray-300">Collaborative User Acceptance Testing (UAT) with the AA Management team.</span>
+                </li>
+              
+                <li class="flex items-start space-x-3">
+                  <span class="flex-shrink-0 mt-1 w-5 h-5 bg-amber-500 text-slate-900 rounded-full flex items-center justify-center text-xs font-bold">2</span>
+                  <span class="text-gray-300">Bug fixing and performance optimization based on UAT feedback.</span>
+                </li>
+              
+                <li class="flex items-start space-x-3">
+                  <span class="flex-shrink-0 mt-1 w-5 h-5 bg-amber-500 text-slate-900 rounded-full flex items-center justify-center text-xs font-bold">3</span>
+                  <span class="text-gray-300">Development of user manuals and comprehensive training materials.</span>
+                </li>
+              
+                <li class="flex items-start space-x-3">
+                  <span class="flex-shrink-0 mt-1 w-5 h-5 bg-amber-500 text-slate-900 rounded-full flex items-center justify-center text-xs font-bold">4</span>
+                  <span class="text-gray-300">Tailored training sessions for key administrative staff on the new system.</span>
+                </li>
+              
+                <li class="flex items-start space-x-3">
+                  <span class="flex-shrink-0 mt-1 w-5 h-5 bg-amber-500 text-slate-900 rounded-full flex items-center justify-center text-xs font-bold">5</span>
+                  <span class="text-gray-300">Final preparations for production deployment.</span>
+                </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+      <div class="flex flex-col md:flex-row gap-8 items-start">
+        <div class="md:w-1/3 p-4 rounded-lg text-left bg-slate-800 text-white">
+          <div class="flex items-center space-x-4">
+            <div class="p-2 rounded-full bg-slate-700"><svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></div>
+            <div>
+              <h3 class="font-bold">Phase 4: Deployment &amp; Go-Live</h3>
+              <p class="text-sm text-gray-400">Launch &amp; Ongoing Support</p>
+            </div>
+          </div>
+        </div>
+        <div class="md:w-2/3">
+          <div class="bg-slate-800/50 border border-slate-700 rounded-lg p-8 h-full">
+            <h3 class="text-2xl font-bold text-white mb-2">Launch &amp; Ongoing Support</h3>
+            <p class="text-gray-400 mb-6">The final phase involves the seamless deployment of the QuickBooks Automation solution into your live operational environment. Nexaris AI will provide essential post-implementation support, proactive monitoring, and further optimization to ensure long-term stability and continued efficiency gains.</p>
+            <ul class="space-y-4">
+              
+                <li class="flex items-start space-x-3">
+                  <span class="flex-shrink-0 mt-1 w-5 h-5 bg-amber-500 text-slate-900 rounded-full flex items-center justify-center text-xs font-bold">1</span>
+                  <span class="text-gray-300">Secure production environment setup and final system deployment.</span>
+                </li>
+              
+                <li class="flex items-start space-x-3">
+                  <span class="flex-shrink-0 mt-1 w-5 h-5 bg-amber-500 text-slate-900 rounded-full flex items-center justify-center text-xs font-bold">2</span>
+                  <span class="text-gray-300">Initial system monitoring and dedicated post-launch support.</span>
+                </li>
+              
+                <li class="flex items-start space-x-3">
+                  <span class="flex-shrink-0 mt-1 w-5 h-5 bg-amber-500 text-slate-900 rounded-full flex items-center justify-center text-xs font-bold">3</span>
+                  <span class="text-gray-300">Performance review and minor adjustments for optimal operation.</span>
+                </li>
+              
+                <li class="flex items-start space-x-3">
+                  <span class="flex-shrink-0 mt-1 w-5 h-5 bg-amber-500 text-slate-900 rounded-full flex items-center justify-center text-xs font-bold">4</span>
+                  <span class="text-gray-300">Establishment of ongoing maintenance and support protocols.</span>
+                </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+</section>
+            
+<section class="py-12 scroll-mt-20">
+  <div class="text-center mb-10">
+    <h2 class="text-4xl font-bold text-white tracking-tight">Technology Stack</h2>
+    <p class="mt-3 text-lg text-amber-400">The Best Tools for the Job</p>
+  </div>
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+      <div class="bg-slate-800/50 border border-slate-700 rounded-lg p-6 flex flex-col">
+        <div class="flex items-center space-x-4 mb-4">
+          <div class="p-3 bg-slate-700 rounded-lg"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="7" x="14" y="3" rx="1"></rect><path d="M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3"></path></svg></div>
+          <div>
+            <h3 class="text-lg font-bold text-white">OpenAI API (GPT-4 Turbo)</h3>
+            <p class="text-sm text-amber-400">Large Language Model (LLM)</p>
+          </div>
+        </div>
+        <p class="text-gray-400 flex-grow">Advanced AI models capable of understanding, processing, and generating human-like text, ideal for sophisticated data extraction and normalization.</p>
+        <div class="mt-4 pt-4 border-t border-slate-700">
+            <p class="text-xs text-gray-500 font-semibold uppercase mb-1">Why this tool?</p>
+            <p class="text-sm text-gray-300">Enables intelligent parsing of diverse Excel/PDF formats, accurately extracting line items, flagging inconsistencies, and robustly mapping data to QuickBooks fields, even with variations.</p>
+        </div>
+      </div>
+    
+      <div class="bg-slate-800/50 border border-slate-700 rounded-lg p-6 flex flex-col">
+        <div class="flex items-center space-x-4 mb-4">
+          <div class="p-3 bg-slate-700 rounded-lg"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="7" x="14" y="3" rx="1"></rect><path d="M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3"></path></svg></div>
+          <div>
+            <h3 class="text-lg font-bold text-white">Google Drive</h3>
+            <p class="text-sm text-amber-400">Cloud File Storage &amp; Trigger</p>
+          </div>
+        </div>
+        <p class="text-gray-400 flex-grow">A secure and widely used cloud storage service that allows file synchronization and collaboration.</p>
+        <div class="mt-4 pt-4 border-t border-slate-700">
+            <p class="text-xs text-gray-500 font-semibold uppercase mb-1">Why this tool?</p>
+            <p class="text-sm text-gray-300">Serves as the primary input point for documents (Excel/PDF) for the automation workflow, providing a familiar and accessible interface for AA Management staff to drop files, triggering the n8n automation.</p>
+        </div>
+      </div>
+    
+      <div class="bg-slate-800/50 border border-slate-700 rounded-lg p-6 flex flex-col">
+        <div class="flex items-center space-x-4 mb-4">
+          <div class="p-3 bg-slate-700 rounded-lg"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="7" x="14" y="3" rx="1"></rect><path d="M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3"></path></svg></div>
+          <div>
+            <h3 class="text-lg font-bold text-white">n8n</h3>
+            <p class="text-sm text-amber-400">Workflow Orchestration</p>
+          </div>
+        </div>
+        <p class="text-gray-400 flex-grow">A powerful workflow automation tool that connects various services and APIs with customizable logic.</p>
+        <div class="mt-4 pt-4 border-t border-slate-700">
+            <p class="text-xs text-gray-500 font-semibold uppercase mb-1">Why this tool?</p>
+            <p class="text-sm text-gray-300">Critical for orchestrating the entire workflow, from detecting new files in Google Drive, calling the Python-based AI agent, managing human review, and posting to QuickBooks, providing flexibility and scalability.</p>
+        </div>
+      </div>
+    
+      <div class="bg-slate-800/50 border border-slate-700 rounded-lg p-6 flex flex-col">
+        <div class="flex items-center space-x-4 mb-4">
+          <div class="p-3 bg-slate-700 rounded-lg"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="7" x="14" y="3" rx="1"></rect><path d="M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3"></path></svg></div>
+          <div>
+            <h3 class="text-lg font-bold text-white">Python</h3>
+            <p class="text-sm text-amber-400">Programming Language &amp; Data Processing</p>
+          </div>
+        </div>
+        <p class="text-gray-400 flex-grow">A versatile and powerful programming language widely used for data processing, AI, and backend development.</p>
+        <div class="mt-4 pt-4 border-t border-slate-700">
+            <p class="text-xs text-gray-500 font-semibold uppercase mb-1">Why this tool?</p>
+            <p class="text-sm text-gray-300">Will be used to develop the core logic of the AI agent, including advanced data parsing (for Excel), OCR processing (for PDFs), data cleaning, normalization, and generating the structured QuickBooks payloads using robust libraries and custom scripts. Python will interface with the OpenAI API.</p>
+        </div>
+      </div>
+    
+    </div>
+</section>
+            
+<section class="py-12 scroll-mt-20">
+  <div class="text-center mb-10">
+    <h2 class="text-4xl font-bold text-white tracking-tight">The AI Agent in Action</h2>
+    <p class="mt-3 text-lg text-amber-400">A High-Level Workflow Breakdown</p>
+  </div>
+  <div class="flex flex-col items-center">
+    
+        <div class="w-full max-w-2xl text-center bg-slate-800/50 border border-slate-700 rounded-lg p-6">
+            <div class="flex justify-center items-center mb-4">
+                <div class="w-12 h-12 bg-slate-700 rounded-full flex items-center justify-center text-xl font-bold text-amber-400 ring-4 ring-slate-800">
+                    1
+                </div>
+            </div>
+            <h3 class="text-xl font-bold text-white">Step 1: Document Ingestion</h3>
+            <p class="mt-2 text-gray-400">Subcontractor bills or customer invoice sheets (Excel/PDF) are automatically detected and ingested when dropped into a designated cloud folder (e.g., Google Drive, OneDrive) or received via a specific email address, triggering the automation.</p>
+        </div>
+        <div class="flex justify-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-slate-600 my-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"></path><path d="m19 12-7 7-7-7"></path></svg></div>
+    
+        <div class="w-full max-w-2xl text-center bg-slate-800/50 border border-slate-700 rounded-lg p-6">
+            <div class="flex justify-center items-center mb-4">
+                <div class="w-12 h-12 bg-slate-700 rounded-full flex items-center justify-center text-xl font-bold text-amber-400 ring-4 ring-slate-800">
+                    2
+                </div>
+            </div>
+            <h3 class="text-xl font-bold text-white">Step 2: Intelligent Data Extraction</h3>
+            <p class="mt-2 text-gray-400">The AI agent reads the incoming file. It directly parses Excel documents and utilizes advanced OCR for PDFs. A Large Language Model then intelligently extracts all relevant line items and header information, normalizes the data, and flags any potential ambiguities or missing fields for human review.</p>
+        </div>
+        <div class="flex justify-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-slate-600 my-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"></path><path d="m19 12-7 7-7-7"></path></svg></div>
+    
+        <div class="w-full max-w-2xl text-center bg-slate-800/50 border border-slate-700 rounded-lg p-6">
+            <div class="flex justify-center items-center mb-4">
+                <div class="w-12 h-12 bg-slate-700 rounded-full flex items-center justify-center text-xl font-bold text-amber-400 ring-4 ring-slate-800">
+                    3
+                </div>
+            </div>
+            <h3 class="text-xl font-bold text-white">Step 3: QuickBooks Payload Generation</h3>
+            <p class="mt-2 text-gray-400">Based on the extracted and normalized data, the AI agent constructs a preliminary QuickBooks Online Bill or Invoice payload, accurately mapping vendor/customer references, work order numbers, dates, descriptions, amounts, and relevant accounting categories.</p>
+        </div>
+        <div class="flex justify-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-slate-600 my-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"></path><path d="m19 12-7 7-7-7"></path></svg></div>
+    
+        <div class="w-full max-w-2xl text-center bg-slate-800/50 border border-slate-700 rounded-lg p-6">
+            <div class="flex justify-center items-center mb-4">
+                <div class="w-12 h-12 bg-slate-700 rounded-full flex items-center justify-center text-xl font-bold text-amber-400 ring-4 ring-slate-800">
+                    4
+                </div>
+            </div>
+            <h3 class="text-xl font-bold text-white">Step 4: Human-in-the-Loop Review</h3>
+            <p class="mt-2 text-gray-400">The preliminary QuickBooks entry is created in QuickBooks Online as a draft or pending transaction. Your staff can then review, make any necessary edits directly within QuickBooks, and verify the accuracy of the extracted and mapped data, ensuring quality control using the familiar QBO interface.</p>
+        </div>
+        <div class="flex justify-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-slate-600 my-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"></path><path d="m19 12-7 7-7-7"></path></svg></div>
+    
+        <div class="w-full max-w-2xl text-center bg-slate-800/50 border border-slate-700 rounded-lg p-6">
+            <div class="flex justify-center items-center mb-4">
+                <div class="w-12 h-12 bg-slate-700 rounded-full flex items-center justify-center text-xl font-bold text-amber-400 ring-4 ring-slate-800">
+                    5
+                </div>
+            </div>
+            <h3 class="text-xl font-bold text-white">Step 5: One-Click Posting &amp; Audit Trail</h3>
+            <p class="mt-2 text-gray-400">With a single click from within QuickBooks, the approved entry is securely posted. The original document is automatically attached to the transaction, and a detailed audit trail is logged, recording approvals, changes, and timestamps for full transparency and compliance.</p>
+        </div>
+        
+    
+    </div>
+</section>
+            
+<section class="py-12 scroll-mt-20">
+  <div class="text-center mb-10">
+    <h2 class="text-4xl font-bold text-white tracking-tight">Timeline &amp; Deliverables</h2>
+    <p class="mt-3 text-lg text-amber-400">What to Expect and When</p>
+  </div>
+  <div class="max-w-3xl mx-auto">
+    
+        <div class="flex">
+            <div class="flex flex-col items-center mr-6">
+                <div class="flex items-center justify-center w-12 h-12 bg-slate-800 border-2 border-amber-500 rounded-full text-amber-500 flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>
+                </div>
+                <div class="w-px h-full bg-slate-700"></div>
+            </div>
+            <div class="pb-16 w-full">
+                <p class="mb-1 text-sm font-semibold text-amber-400">Phase 1 &bull; Weeks 1-2</p>
+                <h3 class="text-xl font-bold text-white mb-4">Discovery &amp; System Design</h3>
+                <div class="bg-slate-800/50 border border-slate-700 rounded-lg p-6">
+                    <h4 class="font-semibold text-white mb-3">Key Deliverables:</h4>
+                    <ul class="space-y-2">
+                        
+                            <li class="flex items-start space-x-3">
+                                <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-400 mt-1 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                                <span class="text-gray-300">Signed Requirements Document</span>
+                            </li>
+                        
+                            <li class="flex items-start space-x-3">
+                                <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-400 mt-1 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                                <span class="text-gray-300">Solution Architecture Blueprint</span>
+                            </li>
+                        
+                            <li class="flex items-start space-x-3">
+                                <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-400 mt-1 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                                <span class="text-gray-300">Detailed QBO Integration Plan</span>
+                            </li>
+                        
+                            <li class="flex items-start space-x-3">
+                                <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-400 mt-1 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                                <span class="text-gray-300">Secure Development Environment</span>
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <div class="flex">
+            <div class="flex flex-col items-center mr-6">
+                <div class="flex items-center justify-center w-12 h-12 bg-slate-800 border-2 border-amber-500 rounded-full text-amber-500 flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>
+                </div>
+                <div class="w-px h-full bg-slate-700"></div>
+            </div>
+            <div class="pb-16 w-full">
+                <p class="mb-1 text-sm font-semibold text-amber-400">Phase 2 &bull; Weeks 3-4</p>
+                <h3 class="text-xl font-bold text-white mb-4">Agent Development &amp; Integration</h3>
+                <div class="bg-slate-800/50 border border-slate-700 rounded-lg p-6">
+                    <h4 class="font-semibold text-white mb-3">Key Deliverables:</h4>
+                    <ul class="space-y-2">
+                        
+                            <li class="flex items-start space-x-3">
+                                <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-400 mt-1 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                                <span class="text-gray-300">Core AI Agent (Data Parser, LLM, QBO API Module)</span>
+                            </li>
+                        
+                            <li class="flex items-start space-x-3">
+                                <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-400 mt-1 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                                <span class="text-gray-300">Human Review UI Prototype</span>
+                            </li>
+                        
+                            <li class="flex items-start space-x-3">
+                                <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-400 mt-1 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                                <span class="text-gray-300">Initial Integration Test Reports</span>
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <div class="flex">
+            <div class="flex flex-col items-center mr-6">
+                <div class="flex items-center justify-center w-12 h-12 bg-slate-800 border-2 border-amber-500 rounded-full text-amber-500 flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>
+                </div>
+                <div class="w-px h-full bg-slate-700"></div>
+            </div>
+            <div class="pb-16 w-full">
+                <p class="mb-1 text-sm font-semibold text-amber-400">Phase 3 &bull; Week 5</p>
+                <h3 class="text-xl font-bold text-white mb-4">Testing, Training &amp; Refinement</h3>
+                <div class="bg-slate-800/50 border border-slate-700 rounded-lg p-6">
+                    <h4 class="font-semibold text-white mb-3">Key Deliverables:</h4>
+                    <ul class="space-y-2">
+                        
+                            <li class="flex items-start space-x-3">
+                                <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-400 mt-1 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                                <span class="text-gray-300">Completed User Acceptance Testing (UAT)</span>
+                            </li>
+                        
+                            <li class="flex items-start space-x-3">
+                                <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-400 mt-1 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                                <span class="text-gray-300">Comprehensive Staff Training Sessions</span>
+                            </li>
+                        
+                            <li class="flex items-start space-x-3">
+                                <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-400 mt-1 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                                <span class="text-gray-300">User Manuals &amp; Support Documentation</span>
+                            </li>
+                        
+                            <li class="flex items-start space-x-3">
+                                <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-400 mt-1 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                                <span class="text-gray-300">Refined System Functionality</span>
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <div class="flex">
+            <div class="flex flex-col items-center mr-6">
+                <div class="flex items-center justify-center w-12 h-12 bg-slate-800 border-2 border-amber-500 rounded-full text-amber-500 flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>
+                </div>
+                
+            </div>
+            <div class="pb-16 w-full">
+                <p class="mb-1 text-sm font-semibold text-amber-400">Phase 4 &bull; Week 6</p>
+                <h3 class="text-xl font-bold text-white mb-4">Deployment &amp; Go-Live</h3>
+                <div class="bg-slate-800/50 border border-slate-700 rounded-lg p-6">
+                    <h4 class="font-semibold text-white mb-3">Key Deliverables:</h4>
+                    <ul class="space-y-2">
+                        
+                            <li class="flex items-start space-x-3">
+                                <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-400 mt-1 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                                <span class="text-gray-300">Production System Deployment</span>
+                            </li>
+                        
+                            <li class="flex items-start space-x-3">
+                                <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-400 mt-1 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                                <span class="text-gray-300">Initial Post-Launch Monitoring Report</span>
+                            </li>
+                        
+                            <li class="flex items-start space-x-3">
+                                <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-400 mt-1 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                                <span class="text-gray-300">Performance Review &amp; Optimization Plan</span>
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+</section>
+            
+<section class="py-12 scroll-mt-20">
+  <div class="text-center mb-10">
+    <h2 class="text-4xl font-bold text-white tracking-tight">Estimated Costs &amp; ROI</h2>
+    <p class="mt-3 text-lg text-amber-400">A Clear Financial Case</p>
+  </div>
+  
+    <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-slate-800/50 border border-slate-700 rounded-lg p-8 flex flex-col">
+            <h3 class="text-2xl font-bold text-white mb-4">Estimated Monthly Costs</h3>
+            <div class="space-y-4 flex-grow">
+                
+                    <div class="flex justify-between items-center">
+                        <p class="text-gray-300">AI/LLM API Usage</p>
+                        <p class="font-mono text-white">$ 50.00</p>
+                    </div>
+                
+                    <div class="flex justify-between items-center">
+                        <p class="text-gray-300">Workflow Orchestration Platform (n8n)</p>
+                        <p class="font-mono text-white">$ 75.00</p>
+                    </div>
+                
+                    <div class="flex justify-between items-center">
+                        <p class="text-gray-300">Ongoing Support &amp; Maintenance</p>
+                        <p class="font-mono text-white">$ 250.00</p>
+                    </div>
+                
+            </div>
+            <div class="mt-6 pt-6 border-t border-slate-600">
+                <div class="flex justify-between items-center">
+                    <p class="text-lg font-bold text-white">Total Estimated Cost</p>
+                    <p class="font-mono text-2xl font-bold text-amber-400">$ 375.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-green-900/30 border border-green-500/50 rounded-lg p-8 flex flex-col">
+            <h3 class="text-2xl font-bold text-white mb-4">Return on Investment (Monthly)</h3>
+            <div class="space-y-4 flex-grow">
+                
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <p class="text-gray-300">Administrative Time Savings</p>
+                            <p class="text-xs text-green-400/80">Based on saving approximately 12 administrative hours per week (48 hours/month) at an estimated average administrative wage of $25/hour.</p>
+                        </div>
+                        <p class="font-mono text-green-300">+ $1200.00</p>
+                    </div>
+                
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <p class="text-gray-300">Reduced Error Correction Costs</p>
+                            <p class="text-xs text-green-400/80">Fewer manual errors lead to reduced time spent on corrections, reconciliations, and potential vendor/customer dispute resolution, minimizing rework.</p>
+                        </div>
+                        <p class="font-mono text-green-300">+ $300.00</p>
+                    </div>
+                
+                <div class="flex justify-between items-center">
+                    <p class="text-gray-300">Less Monthly Costs</p>
+                    <p class="font-mono text-red-400">- $375.00</p>
+                </div>
+            </div>
+            <div class="mt-6 pt-6 border-t border-green-700">
+                <div class="flex justify-between items-center">
+                    <p class="text-lg font-bold text-white">Net Monthly ROI</p>
+                    <p class="font-mono text-2xl font-bold text-green-400">$ 1125.00</p>
+                </div>
+                <p class="text-center mt-4 text-green-300">
+                    An incredible <span class="font-bold text-white">4.0x return</span> on your monthly software investment.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="mt-12 bg-slate-800/50 border border-slate-700 rounded-lg p-8">
+        <h3 class="text-2xl font-bold text-white mb-4 text-center">Implementation & Support Investment</h3>
+        <p class="text-center text-gray-400 mb-8 max-w-3xl mx-auto">A one-time project fee to design, build, and integrate the entire system, with an optional annual plan for ongoing support, maintenance, and updates.</p>
+        <div class="flex flex-wrap justify-center gap-8 text-center">
+          
+             <div class="bg-slate-800 p-6 rounded-lg border border-slate-600 max-w-md">
+                <p class="text-lg font-semibold text-gray-300">One-Time Project Implementation</p>
+                <p class="font-mono text-3xl font-bold text-amber-400 mt-2">$5,000 - $7,500</p>
+                <p class="text-xs text-gray-500 mt-1">Covers full solution design, development, integration, comprehensive testing, and initial staff training.</p>
+            </div>
+          
+        </div>
+    </div>
+</section>
+        </main>
+        
+  <footer class="bg-slate-900 border-t border-slate-700 mt-16">
+      <div class="max-w-5xl mx-auto py-12 px-4 sm:px-6 md:px-8 text-center">
+        <p class="text-gray-400">
+          Proposal prepared by Nexaris AI
+        </p>
+        <p class="mt-2 text-sm text-gray-500">
+          Powered by the Gemini API
+        </p>
+      </div>
+  </footer>
+    </body>
+    </html>
+  
